@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['eye']
+
+roboflow:
+  workspace: eye-annotations-yolo-to-voc
+  project: yolov7-eye-detection
+  version: 28
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/eye-annotations-yolo-to-voc/yolov7-eye-detection/dataset/28
